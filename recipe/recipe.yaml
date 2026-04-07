@@ -1,6 +1,6 @@
 context:
   name: "ninjax"
-  version: "3.6.2"
+  version: "3.6.3"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 3eabc014d94d05177f3ade206dc43a7503cb130eb6d396da73eb607b5c20054a
+  sha256: 07e9c47ccae889f3c1c163caf60b4e413fc545515d5f9a1f57a76921c8639359
 
 build:
   noarch: python
